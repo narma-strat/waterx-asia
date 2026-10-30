@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- WaterX Asia home page. Styles: css/site.css. Header/footer: js/layout.js. Companies: js/companies.js -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>WaterX Asia </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="css/site.css?v=20261030u">
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="site-header"></div>
+
+<!-- 1. HERO BANNER -->
+<section class="hero">
+  <div class="hero-media">
+    <div class="wrap">
+      <span class="eyebrow"><i class="fa-solid fa-droplet"></i> China water tech, translated for Asia</span>
+      <h1>One portal for <span>water-sector intelligence</span> and <span>commercial opportunity</span> across ASEAN</h1>
+      <div class="hero-intro">
+        <p>WaterX Asia is a collaboration between <b>STRAT369 Consulting</b> (Malaysia) and <b>WaterPlus</b> (China). By combining China's water technology and supplier ecosystem with Malaysian and ASEAN policy, regulatory and commercial expertise, the platform supports the water sector across Asia.</p>      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="quicknav">
+      <div class="quicknav-card" onclick="location.href='#about'">
+        <div class="quicknav-icon icon-navy"><i class="fa-solid fa-circle-info"></i></div>
+        <h3>About</h3>
+        <p>Meet the WaterPlus and STRAT369 Consulting partnership: what the platform does, why it matters and how we keep content accurate.</p>
+      </div>
+      <div class="quicknav-card" onclick="goTo('insights','opportunities')">
+        <div class="quicknav-icon icon-teal"><i class="fa-solid fa-chart-line"></i></div>
+        <h3>Insights</h3>
+        <p>Tenders and project opportunities, industry news, ASEAN water data and research, and thought leadership on China's and the region's water sector.</p>
+      </div>
+      <div class="quicknav-card" onclick="goTo('commercial','profiles')">
+        <div class="quicknav-icon icon-amber"><i class="fa-solid fa-handshake"></i></div>
+        <h3>Commercial</h3>
+        <p>English-language profiles of Chinese water-sector companies, plus a confidential way to submit M&amp;A, investment and partnership opportunities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section id="about" style="background:#fff;">
+  <div class="wrap">
+    <div class="about-partners">
+      <a class="partner-tile" href="https://web.shuiwujia.com/" target="_blank" rel="noopener noreferrer" title="Visit WaterPlus">
+        <img src="images/Waterplus_logo_hd.png" alt="WaterPlus Digital Water" class="partner-wp">
+      </a>
+      <div class="partner-x" aria-hidden="true">&times;</div>
+      <a class="partner-tile" href="https://strat369.com.my/" target="_blank" rel="noopener noreferrer" title="Visit STRAT369 Consulting">
+        <img src="images/Strat_logo_trim.png" alt="STRAT369 Consulting" class="partner-strat">
+      </a>
+    </div>
+  </div>
+  <div class="wrap about">
+    <div>
+      <span class="tag-pill tag-know"><i class="fa-solid fa-circle-info"></i> Who we are</span>
+      <h2 style="margin-top:10px;">A joint collaboration between WaterPlus and STRAT369 Consulting</h2>
+      <p class="about-lead">WaterX Asia is a joint initiative between <b>WaterPlus</b>, a China-based digital water platform focused on China's water industry, and <b>STRAT369 Consulting</b>, a Malaysia-based firm advising on policy, regulation and commercial strategy across ASEAN. WaterPlus brings first-hand knowledge of Chinese water utilities, technologies and suppliers, while STRAT369 Consulting brings a clear understanding of how water projects are planned, regulated and procured in Malaysia and the wider region. Together, we are building a trusted bridge between Chinese water technology and the utilities, buyers, regulators and investors who need it, bringing market intelligence, reviewed English-language company profiles and confidential partnership opportunities into one place, starting with Malaysia and ASEAN.</p>
+    </div>
+    <div class="about-cards">
+      <div class="about-card">
+        <span class="icon-circle icon-sm icon-teal"><i class="fa-solid fa-brain"></i></span>
+        <div>
+          <h3>What we do</h3>
+          <p>We curate water-sector market intelligence, including tenders, policy updates, data and thought leadership, and turn Chinese supplier information into clear, English-language company profiles and opportunity listings.</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <span class="icon-circle icon-sm icon-amber"><i class="fa-solid fa-eye-slash"></i></span>
+        <div>
+          <h3>Why it matters</h3>
+          <p>Many capable Chinese water-technology companies are well established at home but hard to find, assess or contact from elsewhere in Asia. Language barriers and limited English information slow down procurement and partnerships.</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <span class="icon-circle icon-sm icon-green"><i class="fa-solid fa-shield-halved"></i></span>
+        <div>
+          <h3>How we work</h3>
+          <p>AI speeds up translation, drafting and design so content can be produced quickly and at scale. Every profile is then checked by a Mandarin-speaking reviewer before it goes live, so it stays accurate and true to the original source.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. INSIGHTS -->
+<section id="insights" style="background:var(--ice);">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="tag-pill tag-know"><i class="fa-solid fa-chart-line"></i> Market intelligence</span>
+        <h2 style="margin-top:10px;">Insights</h2>
+        <p>Everything on the knowledge side of the platform — opportunities, data and analysis.</p>
+      </div>
+    </div>
+
+    <!-- Insights tab buttons -->
+    <div class="subtabs">
+      <button class="subtab-btn active" data-group="insights" data-tab="opportunities" onclick="goTo('insights','opportunities')">Opportunities</button>
+      <button class="subtab-btn" data-group="insights" data-tab="news" onclick="goTo('insights','news')">News</button>
+      <button class="subtab-btn" data-group="insights" data-tab="dashboard" onclick="goTo('insights','dashboard')">Data &amp; research</button>
+      <button class="subtab-btn" data-group="insights" data-tab="leadership" onclick="goTo('insights','leadership')">Thought leadership</button>
+    </div>
+
+    <!-- Insights > Opportunities tab -->
+    <div class="tab-pane active" data-group="insights" data-tab="opportunities">
+      <h3 class="subhead">Opportunities across the water industry value chain</h3>
+      <p style="font-size:13.5px;color:var(--muted);margin-bottom:20px;max-width:780px;">Tenders, PPP screenings, project leads and advisory mandates — sourced across every stage of the value chain, from raw-water abstraction through to wastewater reclamation, plus the equipment, monitoring, digital and advisory layers that support them.</p>
+
+      <div class="opp-phase-strip" id="oppPhaseStrip"></div>
+
+      <div class="filter-row" style="align-items:center;">
+        <select id="oppCountryFilter" class="opp-select"><option value="all">All countries</option></select>
+        <select id="oppSegFilter" class="opp-select"><option value="all">All sub-segments</option></select>
+        <input type="text" id="oppSearch" class="opp-search" placeholder="Search opportunities, countries, sub-segments…">
+      </div>
+
+      <p id="oppCount" style="font-size:12.5px;color:var(--muted);margin-bottom:12px;"></p>
+
+      <div class="opp-list">
+        <div class="opp-row head"><span></span><span>Country</span><span>Opportunity</span><span>Sub-segment</span><span>Est. value</span><span>Stage</span></div>
+        <div id="oppList"></div>
+      </div>
+
+      <div class="opp-pagination">
+        <button id="oppPrev" class="btn btn-ghost btn-sm"><i class="fa-solid fa-arrow-left"></i> Prev</button>
+        <span id="oppPageInfo" style="font-size:13px;color:var(--muted);"></span>
+        <button id="oppNext" class="btn btn-ghost btn-sm">Next <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <p style="font-size:12px;color:var(--muted);margin-top:16px;">Refreshed weekly as part of the platform's market-intelligence feed. Covers the full value chain: water supply, customer end-use, wastewater management, and cross-cutting equipment, monitoring, digital and advisory services.</p>
+    </div>
+
+    <!-- Insights > News tab -->
+    <div class="tab-pane" data-group="insights" data-tab="news">
+      <h3 class="subhead">Latest news</h3>
+      <div class="insight-grid">
+        <div class="insight-card">
+          <img class="card-img" src="images/news-1.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-teal"><i class="fa-solid fa-gavel"></i></span><span class="meta">PROCUREMENT · MALAYSIA · 2 Aug 2026</span></div>
+            <h3>SPAN opens tender for 40 MLD membrane upgrade in Selangor</h3>
+            <p>Ministry-linked utility issues RFP for advanced membrane filtration — closing date and technical criteria summarised.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-2.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-navy"><i class="fa-solid fa-landmark"></i></span><span class="meta">POLICY · CHINA · 30 Jul 2026</span></div>
+            <h3>MEE tightens discharge standards for industrial wastewater</h3>
+            <p>New national standard raises demand for Chinese advanced treatment exporters targeting Southeast Asia.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-3.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-green"><i class="fa-solid fa-chart-line"></i></span><span class="meta">INVESTMENT · ASEAN · 27 Jul 2026</span></div>
+            <h3>Vietnam PPP pipeline adds three desalination projects</h3>
+            <p>Screening note on sponsors, financing structure and opportunities for technology and EPC partners.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-4.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-coral"><i class="fa-solid fa-scale-balanced"></i></span><span class="meta">REGULATION · INDONESIA · 24 Jul 2026</span></div>
+            <h3>Jakarta water utility issues new tariff adjustment roadmap</h3>
+            <p>Phased tariff increases through 2028 aim to close the funding gap for network rehabilitation.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-5.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-amber"><i class="fa-solid fa-handshake"></i></span><span class="meta">M&amp;A · THAILAND · 21 Jul 2026</span></div>
+            <h3>Regional utility group expands stake in industrial water reuse platform</h3>
+            <p>Deal signals growing investor appetite for water-reuse assets serving export manufacturing zones.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-6.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-navy"><i class="fa-solid fa-microchip"></i></span><span class="meta">TECHNOLOGY · CHINA · 18 Jul 2026</span></div>
+            <h3>Chinese IoT sensor makers report rising ASEAN export orders</h3>
+            <p>Smart metering and remote monitoring demand climbs as utilities digitise leak detection.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-7.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-teal"><i class="fa-solid fa-wheat-awn"></i></span><span class="meta">AGRICULTURE · VIETNAM · 15 Jul 2026</span></div>
+            <h3>Mekong Delta irrigation modernisation programme approved</h3>
+            <p>USD180M programme covers drip and precision irrigation across four provinces, with equipment tenders expected Q4.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-8.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-navy"><i class="fa-solid fa-user-tie"></i></span><span class="meta">ADVISORY · PHILIPPINES · 12 Jul 2026</span></div>
+            <h3>Manila mandates independent PPP structuring advisory for new tenders</h3>
+            <p>New procurement rule requires an independent advisor on all water-sector PPPs above USD20M.</p>
+          </div>
+        </div>
+        <div class="insight-card">
+          <img class="card-img" src="images/news-9.jpg" alt="">
+          <div class="card-body">
+            <div class="cat-icon-row"><span class="icon-circle icon-sm icon-coral"><i class="fa-solid fa-flask"></i></span><span class="meta">TREATMENT · SINGAPORE · 9 Jul 2026</span></div>
+            <h3>PUB pilots tertiary membrane bioreactor at NEWater plant</h3>
+            <p>Pilot targets a 15% energy-intensity reduction versus current tertiary treatment trains.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Insights > Data & research tab -->
+    <div class="tab-pane" data-group="insights" data-tab="dashboard">
+      <!-- View switch: ASEAN overview (default) or country focus -->
+      <div class="rs-views" id="rsViewSwitch" role="tablist" aria-label="Dashboard view">
+        <button type="button" class="active" data-view="asean" role="tab" aria-selected="true"><i class="fa-solid fa-earth-asia"></i> ASEAN overview</button>
+        <button type="button" data-view="country" role="tab" aria-selected="false"><i class="fa-solid fa-magnifying-glass-chart"></i> Country focus: Malaysia, Singapore, Indonesia</button>
+      </div>
+
+      <!-- ASEAN overview: filled in by js/research.js -->
+      <div id="asView">
+        <div class="rs-toolbar">
+          <div class="rs-source"><i class="fa-solid fa-database"></i> Source: World Bank, World Development Indicators (updated 8 Oct 2026)</div>
+        </div>
+
+        <!-- Shows "Loading" while the Excel is read, or a message if it cannot be read -->
+        <div class="as-status" id="asStatus"></div>
+
+        <div id="asContent">
+        <div class="rs-kpis rs-kpis-4" id="asKpis"></div>
+
+        <div class="rs-grid">
+          <div class="dash-card rs-wide">
+            <div class="rs-map-head">
+              <h3><i class="fa-solid fa-map-location-dot"></i> ASEAN water and sanitation map</h3>
+              <div class="filter-row rs-metric" id="asMapMetric" role="group" aria-label="Map indicator">
+                <button type="button" class="chip active" data-metric="bw" aria-pressed="true">Basic water</button>
+                <button type="button" class="chip" data-metric="bs" aria-pressed="false">Basic sanitation</button>
+                <button type="button" class="chip" data-metric="smw" aria-pressed="false">Safely managed water</button>
+                <button type="button" class="chip" data-metric="sms" aria-pressed="false">Safely managed sanitation</button>
+                <button type="button" class="chip" data-metric="gdp" aria-pressed="false">GDP</button>
+                <button type="button" class="chip" data-metric="pop" aria-pressed="false">Population</button>
+              </div>
+            </div>
+            <div class="rs-map-wrap">
+              <div id="asMap" class="rs-map as-map" aria-label="Map of ASEAN countries shaded by the chosen indicator"></div>
+              <div class="rs-map-legend" id="asMapLegend"></div>
+            </div>
+            <div class="rs-sub" style="margin:10px 0 0;">Darker blue = higher value. Hover a country to see all its indicators.</div>
+          </div>
+
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-faucet-drip"></i> Drinking water</h3>
+            <div class="rs-sub" id="asWaterSub"></div>
+            <div class="rs-chart as-chart-tall"><canvas id="asWater" aria-label="Bar chart of basic and safely managed drinking water by country"></canvas></div>
+          </div>
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-toilet"></i> Sanitation</h3>
+            <div class="rs-sub" id="asSanitSub"></div>
+            <div class="rs-chart as-chart-tall"><canvas id="asSanit" aria-label="Bar chart of basic and safely managed sanitation by country"></canvas></div>
+          </div>
+
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-users"></i> Population</h3>
+            <div class="rs-sub" id="asPopSub"></div>
+            <div class="rs-chart as-chart-tall"><canvas id="asPop" aria-label="Bar chart of population by country"></canvas></div>
+          </div>
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-chart-column"></i> GDP</h3>
+            <div class="rs-sub" id="asGdpSub"></div>
+            <div class="rs-chart as-chart-tall"><canvas id="asGdp" aria-label="Column chart of GDP by country, first and latest year"></canvas></div>
+          </div>
+
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-water"></i> Freshwater withdrawals</h3>
+            <div class="rs-sub" id="asWithdrawSub"></div>
+            <div class="rs-chart as-chart-tall"><canvas id="asWithdraw" aria-label="Bar chart of freshwater withdrawals by country"></canvas></div>
+          </div>
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-seedling"></i> Who uses the water</h3>
+            <div class="rs-sub" id="asSectorsSub"></div>
+            <div class="rs-chart as-chart-tall"><canvas id="asSectors" aria-label="Stacked bar chart of water use by sector"></canvas></div>
+            <div class="as-footnote"><i class="fa-solid fa-circle-info"></i> Brunei not shown (data incomplete)</div>
+          </div>
+
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-hand-holding-dollar"></i> Private investment in water and sanitation</h3>
+            <div class="rs-sub" id="asInvestSub"></div>
+            <div class="rs-chart as-chart-tall"><canvas id="asInvest" aria-label="Stacked column chart of private investment by year"></canvas></div>
+          </div>
+          <div class="dash-card">
+            <h3><i class="fa-solid fa-lightbulb"></i> What the data shows</h3>
+            <div class="insight-callouts rs-insights" id="asInsights"></div>
+          </div>
+        </div>
+
+        <details class="rs-table">
+          <summary><i class="fa-solid fa-table"></i> View ASEAN data table</summary>
+          <div class="rs-table-wrap">
+            <table class="scorecard-table">
+              <thead id="asTableHead"></thead>
+              <tbody id="asTableBody"></tbody>
+            </table>
+          </div>
+        </details>
+        </div>
+      </div>
+
+      <!-- Country focus: Malaysia, Singapore, Indonesia (filled in by js/research.js) -->
+      <div id="rsCountryView" hidden>
+      <div class="rs-toolbar">
+        <div class="filter-row rs-filter" id="rsFilter" role="group" aria-label="Filter by country">
+          <button type="button" class="chip active" data-country="Malaysia" aria-pressed="true"><i class="rs-dot" style="background:#2a78d6"></i>Malaysia</button>
+          <button type="button" class="chip" data-country="Singapore" aria-pressed="false"><i class="rs-dot" style="background:#eb6834"></i>Singapore</button>
+          <button type="button" class="chip" data-country="Indonesia" aria-pressed="false"><i class="rs-dot" style="background:#1baf7a"></i>Indonesia</button>
+        </div>
+        <div class="rs-source"><i class="fa-solid fa-database"></i> Source: World Bank, World Development Indicators (updated 8 Oct 2026)</div>
+      </div>
+
+      <!-- Shows "Loading" while the Excel is read, or a message if it cannot be read -->
+      <div class="as-status" id="rsStatus" hidden></div>
+
+      <div id="rsContent">
+      <div class="rs-kpis" id="rsKpis"></div>
+
+      <div class="rs-grid">
+        <div class="dash-card rs-wide">
+          <div class="rs-map-head">
+            <h3><i class="fa-solid fa-map-location-dot"></i> Water indicators on the map</h3>
+            <div class="filter-row rs-metric" id="rsMapMetric" role="group" aria-label="Map indicator">
+              <button type="button" class="chip active" data-metric="safe" aria-pressed="true">Safely managed water</button>
+              <button type="button" class="chip" data-metric="basic" aria-pressed="false">Basic water access</button>
+              <button type="button" class="chip" data-metric="fresh" aria-pressed="false">Freshwater per person</button>
+              <button type="button" class="chip" data-metric="withdraw" aria-pressed="false">Water withdrawals</button>
+            </div>
+          </div>
+          <div class="rs-map-wrap">
+            <div id="rsMap" class="rs-map" aria-label="Map of the selected country with the chosen indicator"></div>
+            <div class="rs-map-legend" id="rsMapLegend"></div>
+          </div>
+          <div class="rs-sub" style="margin:10px 0 0;">Pick an indicator above. Hover the country to see all indicators.</div>
+        </div>
+        <div class="dash-card">
+          <h3><i class="fa-solid fa-faucet-drip"></i> Drinking water access over time</h3>
+          <div class="rs-sub" id="rsTrendSub"></div>
+          <div class="rs-chart"><canvas id="rsTrend" aria-label="Line chart of safely managed and basic drinking water access over time"></canvas></div>
+        </div>
+        <div class="dash-card">
+          <h3><i class="fa-solid fa-glass-water"></i> Drinking water access levels</h3>
+          <div class="rs-sub" id="rsAccessSub"></div>
+          <div class="rs-chart"><canvas id="rsAccess" aria-label="Donut chart of drinking water access levels"></canvas></div>
+        </div>
+        <div class="dash-card">
+          <h3><i class="fa-solid fa-droplet"></i> Renewable freshwater per person</h3>
+          <div class="rs-sub" id="rsFreshSub"></div>
+          <div class="rs-chart"><canvas id="rsFresh" aria-label="Chart of renewable freshwater per person"></canvas></div>
+        </div>
+        <div class="dash-card">
+          <h3><i class="fa-solid fa-water"></i> Annual freshwater withdrawals</h3>
+          <div class="rs-sub" id="rsWithdrawSub"></div>
+          <div class="rs-chart"><canvas id="rsWithdraw" aria-label="Chart of annual freshwater withdrawals"></canvas></div>
+        </div>
+        <!-- Shown only for countries with reported private investment -->
+        <div class="dash-card" id="rsInvestCard">
+          <h3><i class="fa-solid fa-hand-holding-dollar"></i> Private investment in water and sanitation</h3>
+          <div class="rs-sub" id="rsInvestSub"></div>
+          <div class="rs-chart"><canvas id="rsInvest" aria-label="Bar chart of private investment in water and sanitation"></canvas></div>
+        </div>
+        <div class="dash-card" id="rsInsightsCard">
+          <h3><i class="fa-solid fa-lightbulb"></i> What the data shows</h3>
+          <div class="insight-callouts rs-insights" id="rsInsights"></div>
+        </div>
+      </div>
+
+      <details class="rs-table">
+        <summary><i class="fa-solid fa-table"></i> <span id="rsTableTitle">View data table</span></summary>
+        <div class="rs-table-wrap">
+          <table class="scorecard-table">
+            <thead id="rsTableHead"></thead>
+            <tbody id="rsTableBody"></tbody>
+          </table>
+        </div>
+      </details>
+      </div>
+      </div>
+    </div>
+
+    <!-- Insights > Thought leadership tab -->
+    <div class="tab-pane" data-group="insights" data-tab="leadership">
+      <div class="insight-grid">
+        <div class="article-card">
+          <img class="card-img" src="images/1_TL.jpg" alt="China's National Water Network">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 6 MIN READ</div>
+            <h3>China's National Water Network: Not a Template to Copy, but a Case Study in System Resilience</h3>
+            <p>Few countries need China's scale of inter-basin transfers — but the network's real lesson is how to plan, coordinate and finance water as one resilient system.</p>
+            <a href="https://www.linkedin.com/pulse/chinas-national-water-network-template-copy-case-study-jack-yang-61g6c/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/2_TL.jpg" alt="Shanghai Digital Water Summit 2026">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 2 MIN READ</div>
+            <h3>Reflecting on the Shanghai Digital Water Summit 2026: The Water Sector Does Not Lack Technology — It Needs Connection</h3>
+            <p>Takeaways from three WaterPlus events on moving the water sector from digital ambition to practical transformation, starting with AI built on real water scenarios.</p>
+            <a href="https://www.linkedin.com/pulse/reflecting-shanghai-digital-water-summit-2026-sector-does-jack-yang-zc7ic/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/3_TL.jpg" alt="China carbon pilot areas map">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 7 MIN READ</div>
+            <h3>China's New Carbon Assessment Framework Matters for Water Too — and It Looks Different from Europe and the U.S.</h3>
+            <p>China is turning decarbonisation into a performance-managed system for provinces — with direct consequences for energy-intensive utilities and the water–energy–carbon nexus.</p>
+            <a href="https://www.linkedin.com/pulse/chinas-new-carbon-assessment-framework-matters-water-too-jack-yang-dw05c/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/4_TL.jpg" alt="Water and AI">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 6 MIN READ</div>
+            <h3>How AI Will Reshape the Future of Water: What Transformations Will It Drive in Digital Water?</h3>
+            <p>As AI moves from technology to productivity, digital water is entering an era of full-domain intelligence — and AI capability is becoming a utility's core competitive edge.</p>
+            <a href="https://www.linkedin.com/pulse/how-ai-reshape-future-water-what-transformations-drive-jack-yang-edh0c/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/5_TL.jpg" alt="2026 environmental enterprise media briefing">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 2 MIN READ</div>
+            <h3>2026: The Historic Coordinate Redefining China's Water Sector</h3>
+            <p>The first year of the 15th Five-Year Plan and the new Water Supply Regulations mark a pivot from expanding physical assets to the pursuit of operational excellence.</p>
+            <a href="https://www.linkedin.com/pulse/2026-historic-coordinate-redefining-chinas-water-sector-jack-yang-hslkc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/6_TL.jpg" alt="China's AI+ rollout">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 3 MIN READ</div>
+            <h3>China's AI+ Rollout: A Blueprint for Industrialising AI into Critical Infrastructure</h3>
+            <p>China treats AI as a foundational system layer with staged milestones to 2035 — a direct signal for utility leaders managing OPEX, NRW, energy and regulatory reporting.</p>
+            <a href="https://www.linkedin.com/pulse/chinas-ai-rollout-less-tech-headline-more-blueprint-how-jack-yang-zy7bc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/7_TL.jpg" alt="Water Supply Regulations announcement">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 3 MIN READ</div>
+            <h3>China's Water Sector Reset: Decree 831 Replaces the 1994 Framework</h3>
+            <p>The new Regulations on Water Supply, effective June 2026, shift utilities from build-and-expand to end-to-end service assurance across urban and rural systems.</p>
+            <a href="https://www.linkedin.com/pulse/chinas-water-sector-reset-decree-831-replaces-1994-framework-yang-fvync/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/8_TL.jpg" alt="Dr. Guo Yufeng speaking">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 5 MIN READ</div>
+            <h3>Expert Interview | Dr. Guo Yufeng, CTG Smart Water: Global Digital Water Development and China's Role</h3>
+            <p>The IWA Digital Water China Chapter chair on how China's digital water industry is performing — and whether it has shifted from follower to global leader.</p>
+            <a href="https://www.linkedin.com/pulse/expert-interview-dr-guo-yufeng-ctg-smart-water-global-jack-yang-2udnc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/9_TL.jpg" alt="WeChat">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 4 MIN READ</div>
+            <h3>2025 Top 10 Chinese Water Utility WeChat Accounts: How Digital Engagement Is Reshaping Public Water Services</h3>
+            <p>WaterPlus's sixth annual ranking, drawn from 18,000+ tracked accounts, shows how leading utilities use WeChat for billing, outage alerts, quality disclosure and public trust.</p>
+            <a href="https://www.linkedin.com/pulse/2025-top-10-chinese-water-utility-wechat-accounts-how-jack-yang-6vuvc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/10_TL.jpg" alt="Water industry exhibition">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 3 MIN READ</div>
+            <h3>China Signals a New Era for Water: Why Digital Capability Now Matters More Than Concrete</h3>
+            <p>Three late-2025 policy signals show China treating water less as a construction agenda and more as a long-term system-capability agenda.</p>
+            <a href="https://www.linkedin.com/pulse/china-signals-new-era-water-why-digital-capability-now-jack-yang-6s2dc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/11_TL.jpg" alt="Digital network over the globe">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 2 MIN READ</div>
+            <h3>Major Release: Smart Water Standards System Compendium — 133 Chinese Standards in One Place</h3>
+            <p>A one-stop collection of national, industry and group standards from the MOHURD research project on building a Smart Water standard system.</p>
+            <a href="https://www.linkedin.com/pulse/major-release-smart-water-standards-system-compendium-jack-yang-zlanc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/12_TL.jpg" alt="Chinese flag">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 3 MIN READ</div>
+            <h3>What the CCP Central Economic Work Conference Signals for Chinese Water Utilities Going Global</h3>
+            <p>A distilled reading of the conference's 2026 priorities and what they mean in practice for utilities, digital water providers and go-global businesses.</p>
+            <a href="https://www.linkedin.com/pulse/what-ccp-central-economic-work-conference-signals-chinese-jack-yang-uoz6c/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/13_TL.jpg" alt="Smart water network illustration">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 3 MIN READ</div>
+            <h3>New Trend in China's Water Sector: 80+ Utility-Owned "Smart Water" Tech Companies</h3>
+            <p>Chinese utilities are no longer just buying IT — they are building in-house technology companies for monitoring, automation, AI and data platforms.</p>
+            <a href="https://www.linkedin.com/pulse/new-trend-chinas-water-sector-80-utility-owned-smart-tech-jack-yang-s7x2c/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/14_TL.jpg" alt="Dr. Lin Feng, Shenzhen Water">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 6 MIN READ</div>
+            <h3>Expert Interview | Dr. Lin Feng: AI Strategy, Implementation, and Practice at Shenzhen Water</h3>
+            <p>How one of China's front-runners turned "AI + water" into concrete strategy, systems and culture — and why AI capability now matters to overseas partners.</p>
+            <a href="https://www.linkedin.com/pulse/expert-interview-dr-lin-feng-ai-strategy-practice-shenzhen-jack-yang-ho51c/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/15_TL.jpg" alt="California Water Data Collaborative webinar">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 2 MIN READ</div>
+            <h3>Unlocking Digital Transformation Through Open Collaboration: Lessons from the California Water Data Collaborative (CaDC)</h3>
+            <p>Lessons from a WaterPlus live session with CaDC and Moulton Niguel Water District, attended by 687 participants from China's water industry.</p>
+            <a href="https://www.linkedin.com/pulse/unlocking-digital-transformation-through-open-lessons-jack-yang-h8c1f/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/16_TL.jpg" alt="China baseline water stress map">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 3 MIN READ</div>
+            <h3>China's Water Sector at a Turning Point: Policy, Data, and the Race for Resilience</h3>
+            <p>Between the 14th and 15th Five-Year Plans, three shifts — in investment, technology and governance — are reshaping how cities, utilities and investors think about water.</p>
+            <a href="https://www.linkedin.com/pulse/chinas-water-sector-turning-point-policy-data-race-resilience-yang-l9kac/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/17_TL.jpg" alt="Water treatment plant illustration">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 4 MIN READ</div>
+            <h3>Digital Water Revolution: The Trillion-RMB Game Field from 30% Leakage Rate to AI-Driven Water Management</h3>
+            <p>With China's leakage rate near 28% versus under 10% in Europe and the U.S., digital water is becoming a lifeline — and a trillion-RMB market.</p>
+            <a href="https://www.linkedin.com/pulse/digital-water-revolution-trillion-rmb-game-field-from-jack-yang-hp2pc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/18_TL.jpg" alt="Water data resource centre dashboard">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 4 MIN READ</div>
+            <h3>Chinese Smart Water Battle Royale: State-Backed Giants Enter the Arena – How Can Private Firms Survive?</h3>
+            <p>As central SOEs move into smart water with capital and policy support, five survival strategies for the private firms still in the race.</p>
+            <a href="https://www.linkedin.com/pulse/chinese-smart-water-battle-royale-state-backed-giants-jack-yang-gixjc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/19_TL.jpg" alt="Data streams">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 6 MIN READ</div>
+            <h3>From Central to Local Policy: How China's Water Industry Can Seize the Digital Transformation Opportunity</h3>
+            <p>More than a hundred national and local policies are converging on water efficiency and digitalisation — what they unlock, and practical pathways for utilities.</p>
+            <a href="https://www.linkedin.com/pulse/from-central-local-policy-comprehensive-reading-chinese-jack-yang-la7uc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="article-card">
+          <img class="card-img" src="images/20_TL.jpg" alt="2026 Digital Water Innovation Summit">
+          <div class="card-body">
+            <div class="meta"><i class="fa-solid fa-clock"></i> THOUGHT LEADERSHIP · 3 MIN READ</div>
+            <h3>Invitation to the 2026 Digital Water Innovation Summit (Shanghai)</h3>
+            <p>Join utilities, technology innovators and policymakers on 9 June 2026 at NECC Shanghai for IWA-supported sessions on AI, digital utilities and international smart-water collaboration, held alongside WATERTECH CHINA 2026.</p>
+            <a href="https://www.linkedin.com/pulse/invitation-2026-digital-water-innovation-summit-shanghai-jack-yang-pi6sc/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Read article <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. COMMERCIAL -->
+<section id="commercial">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="tag-pill tag-comm"><i class="fa-solid fa-handshake"></i> Commercial</span>
+        <h2 style="margin-top:10px;">Commercial</h2>
+        <p>Where Chinese suppliers meet ASEAN buyers — and where confidential deals get started.</p>
+      </div>
+    </div>
+
+    <!-- Commercial tab buttons -->
+    <div class="subtabs">
+      <button class="subtab-btn active" data-group="commercial" data-tab="profiles" onclick="goTo('commercial','profiles')">Company profiles</button>
+      <button class="subtab-btn" data-group="commercial" data-tab="mna" onclick="goTo('commercial','mna')">M&amp;A and partnerships</button>    </div>
+
+    <!-- Commercial > Company profiles tab -->
+    <div class="tab-pane active" data-group="commercial" data-tab="profiles">
+      <p style="font-size:13.5px;color:var(--muted);margin-bottom:16px;max-width:720px;">English-language profiles of water-sector companies in China and ASEAN for buyers, regulators and investors.</p>
+      <!-- Country chips and cards are drawn by js/companies.js from WATERX-COMPANY.xlsx -->
+      <div class="co-toolbar">
+        <div class="filter-row rs-filter" id="coFilter" role="group" aria-label="Filter by country"></div>
+        <label class="co-select"><i class="fa-solid fa-filter"></i><select id="coCategory" aria-label="Filter by category"></select></label>
+      </div>
+      <div class="supplier-grid" id="supplierGrid"></div>
+    </div>
+
+    <!-- Commercial > M&A and partnerships tab -->
+    <div class="tab-pane" data-group="commercial" data-tab="mna">
+      <!-- View switch: listings (default) or the submission form -->
+      <div class="rs-views mna-views" id="mnaViewSwitch" role="tablist" aria-label="M&amp;A view">
+        <button type="button" class="active" data-view="listings" role="tab" aria-selected="true"><i class="fa-solid fa-briefcase"></i> M&amp;A listings</button>
+        <button type="button" data-view="submit" role="tab" aria-selected="false"><i class="fa-solid fa-lock"></i> Submit an opportunity</button>
+      </div>
+
+      <!-- M&A listings: cards are drawn by the script at the bottom of this page -->
+      <div id="mnaListings">
+        <p class="mna-intro">Companies open to a stake sale, joint venture or strategic partnership. Contact details are shared only after an NDA is signed.</p>
+        <div class="co-toolbar">
+          <div class="filter-row rs-filter" id="mnaFilter" role="group" aria-label="Filter by country"></div>
+          <label class="co-select"><i class="fa-solid fa-arrow-down-wide-short"></i><select id="mnaSort" aria-label="Sort by date listed">
+            <option value="desc">Newest first</option>
+            <option value="asc">Oldest first</option>
+          </select></label>
+        </div>
+        <div class="mna-grid" id="mnaGrid"></div>
+      </div>
+
+      <div class="maf" id="maf" hidden>
+        <div class="maf-head">
+          <span class="maf-eyebrow"><i class="fa-solid fa-lock"></i> Strictly confidential</span>
+          <h3>M&amp;A Opportunity Form</h3>
+          <p>Considering a stake sale, acquisition, joint venture or strategic partnership? Tell us about it and we'll prepare an anonymised teaser for qualified buyers and investors.</p>
+          <div class="maf-steps">
+            <div class="maf-step active" data-step="1"><span class="num">1</span><span class="lbl">Company information</span></div>
+            <div class="maf-step" data-step="2"><span class="num">2</span><span class="lbl">Opportunity details</span></div>
+            <div class="maf-step" data-step="3"><span class="num">3</span><span class="lbl">Contact &amp; confidentiality</span></div>
+          </div>
+          <div class="maf-bar"><span id="mafBar"></span></div>
+        </div>
+
+        <form id="mafForm" novalidate>
+          <div class="maf-body">
+            <!-- Step 1 -->
+            <div class="maf-page active" data-page="1">
+              <h4 class="maf-page-title">Company information</h4>
+              <p class="maf-page-sub">Tell us briefly about the company and its water-sector activities.</p>
+              <div class="maf-grid">
+                <div class="maf-field" data-required>
+                  <label class="maf-label" for="mafCompany">Company name<span class="req">*</span></label>
+                  <input type="text" id="mafCompany" name="company_name" autocomplete="organization">
+                  <div class="maf-err">Please enter the company name.</div>
+                </div>
+                <div class="maf-field">
+                  <label class="maf-label" for="mafWebsite">Company website</label>
+                  <input type="text" id="mafWebsite" name="company_website" inputmode="url" placeholder="www.example.com">
+                </div>
+                <div class="maf-field full" data-required>
+                  <label class="maf-label" for="mafCountry">Country / headquarters<span class="req">*</span></label>
+                  <input type="text" id="mafCountry" name="country_hq" placeholder="e.g. Kuala Lumpur, Malaysia">
+                  <div class="maf-err">Please enter the country or headquarters location.</div>
+                </div>
+              </div>
+
+              <div class="maf-field" data-required style="margin-top:22px;">
+                <span class="maf-label">Water-sector category<span class="req">*</span></span>
+                <p class="maf-hint">Select all that apply.</p>
+                <div class="maf-options">
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Treatment"><span>Water Treatment</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Wastewater Treatment"><span>Wastewater Treatment</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Industrial Water"><span>Industrial Water</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Supply / Distribution"><span>Water Supply / Distribution</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Desalination"><span>Desalination</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Recycling / Reuse"><span>Water Recycling / Reuse</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Pumps / Valves / Pipes"><span>Pumps / Valves / Pipes</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Membranes / Filtration"><span>Membranes / Filtration</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Chemicals"><span>Water Chemicals</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Smart Water / IoT / Monitoring"><span>Smart Water / IoT / Monitoring</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Engineering / EPC"><span>Engineering / EPC</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Testing / Laboratory Services"><span>Testing / Laboratory Services</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Environmental Services"><span>Environmental Services</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Other water-related business"><span>Other water-related business</span></label>
+                </div>
+                <div class="maf-err">Please select at least one category.</div>
+              </div>
+
+              <div class="maf-field" data-required>
+                <label class="maf-label" for="mafSummary">Brief company summary<span class="req">*</span></label>
+                <p class="maf-hint">A short summary of what the company does, its main products or services, key markets, and any strengths relevant to a potential buyer, investor or strategic partner. We'll use this to prepare the anonymised teaser.</p>
+                <textarea id="mafSummary" name="company_summary" rows="5"></textarea>
+                <div class="maf-err">Please add a short company summary.</div>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="maf-page" data-page="2">
+              <h4 class="maf-page-title">Opportunity details</h4>
+              <p class="maf-page-sub">Tell us what type of transaction or strategic opportunity the company is considering.</p>
+
+              <div class="maf-field" data-required>
+                <span class="maf-label">What is your company considering?<span class="req">*</span></span>
+                <p class="maf-hint">Select all that apply.</p>
+                <div class="maf-options">
+                  <label class="maf-opt"><input type="checkbox" name="considering" value="Minority stake sale"><span><i class="fa-solid fa-chart-pie"></i>Minority stake sale</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="considering" value="Majority stake sale"><span><i class="fa-solid fa-chart-pie"></i>Majority stake sale</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="considering" value="Full sale / acquisition"><span><i class="fa-solid fa-building-circle-check"></i>Full sale / acquisition</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="considering" value="Strategic partnership"><span><i class="fa-solid fa-people-arrows"></i>Strategic partnership</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="considering" value="Joint venture"><span><i class="fa-solid fa-handshake"></i>Joint venture</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="considering" value="Open to discussion"><span><i class="fa-solid fa-comments"></i>Open to discussion</span></label>
+                </div>
+                <div class="maf-err">Please select at least one option.</div>
+              </div>
+
+              <div class="maf-grid">
+                <div class="maf-field">
+                  <span class="maf-label">Approximate annual revenue</span>
+                  <div class="maf-options stack">
+                    <label class="maf-opt"><input type="radio" name="revenue" value="Below USD 1 million"><span>Below USD 1 million</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue" value="USD 1–5 million"><span>USD 1–5 million</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue" value="USD 5–10 million"><span>USD 5–10 million</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue" value="USD 10–25 million"><span>USD 10–25 million</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue" value="USD 25–50 million"><span>USD 25–50 million</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue" value="USD 50–100 million"><span>USD 50–100 million</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue" value="Above USD 100 million"><span>Above USD 100 million</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue" value="Prefer not to disclose"><span>Prefer not to disclose</span></label>
+                  </div>
+                </div>
+                <div class="maf-field">
+                  <span class="maf-label">3-year historical revenue growth (CAGR)</span>
+                  <div class="maf-options stack">
+                    <label class="maf-opt"><input type="radio" name="revenue_cagr" value="Declining"><span>Declining</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue_cagr" value="Flat / Stable (0–5% growth)"><span>Flat / Stable (0–5% growth)</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue_cagr" value="Moderate Growth (6–15% growth)"><span>Moderate Growth (6–15% growth)</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue_cagr" value="High Growth (Above 15%)"><span>High Growth (Above 15%)</span></label>
+                    <label class="maf-opt"><input type="radio" name="revenue_cagr" value="Prefer not to disclose"><span>Prefer not to disclose</span></label>
+                  </div>
+                </div>
+                <div class="maf-field">
+                  <span class="maf-label">Average EBITDA / profitability margins</span>
+                  <div class="maf-options stack">
+                    <label class="maf-opt"><input type="radio" name="ebitda_margin" value="Negative / Pre-profit"><span>Negative / Pre-profit</span></label>
+                    <label class="maf-opt"><input type="radio" name="ebitda_margin" value="0–10%"><span>0% – 10%</span></label>
+                    <label class="maf-opt"><input type="radio" name="ebitda_margin" value="11–20%"><span>11% – 20%</span></label>
+                    <label class="maf-opt"><input type="radio" name="ebitda_margin" value="21–30%"><span>21% – 30%</span></label>
+                    <label class="maf-opt"><input type="radio" name="ebitda_margin" value="Above 30%"><span>Above 30%</span></label>
+                    <label class="maf-opt"><input type="radio" name="ebitda_margin" value="Prefer not to disclose"><span>Prefer not to disclose</span></label>
+                  </div>
+                </div>
+                <div class="maf-field">
+                  <span class="maf-label">Preferred transaction timeline</span>
+                  <div class="maf-options stack">
+                    <label class="maf-opt"><input type="radio" name="timeline" value="Immediately"><span>Immediately</span></label>
+                    <label class="maf-opt"><input type="radio" name="timeline" value="Within 3 months"><span>Within 3 months</span></label>
+                    <label class="maf-opt"><input type="radio" name="timeline" value="3–6 months"><span>3–6 months</span></label>
+                    <label class="maf-opt"><input type="radio" name="timeline" value="6–12 months"><span>6–12 months</span></label>
+                    <label class="maf-opt"><input type="radio" name="timeline" value="More than 12 months"><span>More than 12 months</span></label>
+                    <label class="maf-opt"><input type="radio" name="timeline" value="Currently exploring options"><span>Currently exploring options</span></label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="maf-field" data-required style="margin-top:22px;">
+                <label class="maf-label" for="mafDeal">Deal overview &amp; key investment highlights<span class="req">*</span></label>
+                <p class="maf-hint">3–5 points outlining the proposed transaction, what is being offered or sought, and its appeal to buyers, investors or strategic partners. Highlight key strengths such as recurring contracts, proprietary technology, licences or growth potential.</p>
+                <textarea id="mafDeal" name="deal_overview" rows="6" placeholder="• &#10;• &#10;• "></textarea>
+                <div class="maf-err">Please outline the deal and its key highlights.</div>
+              </div>
+
+              <div class="maf-field">
+                <span class="maf-label">Preferred buyer / investor / partner profile</span>
+                <p class="maf-hint">Select all that apply.</p>
+                <div class="maf-options">
+                  <label class="maf-opt"><input type="checkbox" name="partner_profile" value="Strategic water-sector company"><span>Strategic water-sector company</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="partner_profile" value="Regional industry player"><span>Regional industry player</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="partner_profile" value="Private equity / investment fund"><span>Private equity / investment fund</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="partner_profile" value="Family office"><span>Family office</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="partner_profile" value="Technology partner"><span>Technology partner</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="partner_profile" value="International investor"><span>International investor</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="partner_profile" value="Open to suitable parties"><span>Open to suitable parties</span></label>
+                </div>
+              </div>
+
+              <div class="maf-field">
+                <label class="maf-label" for="mafLicences">Regulatory licences, certifications &amp; operational approvals</label>
+                <p class="maf-hint">Please specify any licences, certifications or approvals the company holds.</p>
+                <textarea id="mafLicences" name="licences_certifications" rows="4" placeholder="e.g. ISO 9001, ISO 14001, water operator licence, environmental permits"></textarea>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="maf-page" data-page="3">
+              <h4 class="maf-page-title">Authorised contact &amp; confidentiality</h4>
+              <p class="maf-page-sub">Provide the details of the authorised company representative.</p>
+              <div class="maf-grid">
+                <div class="maf-field" data-required>
+                  <label class="maf-label" for="mafName">Full name of authorised representative<span class="req">*</span></label>
+                  <input type="text" id="mafName" name="rep_name" autocomplete="name">
+                  <div class="maf-err">Please enter the representative's full name.</div>
+                </div>
+                <div class="maf-field" data-required>
+                  <label class="maf-label" for="mafTitle">Position / job title<span class="req">*</span></label>
+                  <input type="text" id="mafTitle" name="rep_title" autocomplete="organization-title">
+                  <div class="maf-err">Please enter a position or job title.</div>
+                </div>
+                <div class="maf-field" data-required data-type="email">
+                  <label class="maf-label" for="mafEmail">Corporate email<span class="req">*</span></label>
+                  <input type="email" id="mafEmail" name="rep_email" autocomplete="email" placeholder="name@company.com">
+                  <div class="maf-err">Please enter a valid email address.</div>
+                </div>
+                <div class="maf-field">
+                  <label class="maf-label" for="mafPhone">Contact number</label>
+                  <input type="tel" id="mafPhone" name="rep_phone" autocomplete="tel" placeholder="+60 12 345 6789">
+                </div>
+              </div>
+
+              <div class="maf-confid">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div><b>Confidentiality.</b> We will use the information provided to prepare a confidential, anonymised teaser for suitable opportunities. The teaser may be shared with qualified buyers and investors without revealing the company's identity. The company name and other identifying information will remain protected until an NDA is signed and the appropriate disclosure stage is reached.</div>
+              </div>
+
+              <div class="maf-field" data-required="all">
+                <span class="maf-label">Confirmation<span class="req">*</span></span>
+                <div class="maf-options stack">
+                  <label class="maf-opt"><input type="checkbox" name="confirm_authorised" value="yes"><span>I confirm that I am authorised to submit this information on behalf of the company.</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="confirm_teaser" value="yes"><span>I understand that the information provided may be used to prepare an anonymised teaser for qualified buyers and investors.</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="confirm_contact" value="yes"><span>I agree to be contacted regarding this M&amp;A or strategic partnership opportunity.</span></label>
+                </div>
+                <div class="maf-err">Please tick all three confirmations to submit.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="maf-foot">
+            <button type="button" class="btn btn-ghost btn-sm maf-back" id="mafBack"><i class="fa-solid fa-arrow-left"></i> Back</button>
+            <span class="maf-count" id="mafCount">Step 1 of 3</span>
+            <button type="button" class="btn btn-primary btn-sm" id="mafNext">Next <i class="fa-solid fa-arrow-right"></i></button>
+            <button type="submit" class="btn btn-amber btn-sm" id="mafSubmit"><i class="fa-solid fa-paper-plane"></i> Submit company opportunity</button>
+          </div>
+        </form>
+
+        <div class="maf-success" id="mafSuccess">
+          <div class="maf-success-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <h3>Thank you — your opportunity has been received</h3>
+          <p>Our team will review the details and get in touch with the authorised representative to discuss next steps. Your company's identity stays protected until an NDA is signed.</p>
+          <button type="button" class="btn btn-ghost btn-sm" id="mafAgain"><i class="fa-solid fa-rotate-left"></i> Submit another opportunity</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Commercial > List your company -->
+    <div class="tab-pane" data-group="commercial" data-tab="list">
+      <div class="maf" id="cpf">
+        <div class="maf-head">
+          <span class="maf-eyebrow"><i class="fa-solid fa-id-card"></i> List your company</span>
+          <h3>Company Profile Form</h3>
+          <p>Tell us about your company and we'll prepare an English-language profile so buyers, regulators and investors across Asia can find you.</p>
+          <div class="maf-steps">
+            <div class="maf-step active" data-step="1"><span class="num">1</span><span class="lbl">Company information</span></div>
+            <div class="maf-step" data-step="2"><span class="num">2</span><span class="lbl">Contact &amp; confidentiality</span></div>
+          </div>
+          <div class="maf-bar"><span id="cpfBar"></span></div>
+        </div>
+
+        <form id="cpfForm" novalidate>
+          <div class="maf-body">
+            <!-- Step 1 -->
+            <div class="maf-page active" data-page="1">
+              <h4 class="maf-page-title">Company information</h4>
+              <p class="maf-page-sub">Tell us briefly about the company and its water-sector activities.</p>
+              <div class="maf-grid">
+                <div class="maf-field" data-required>
+                  <label class="maf-label" for="cpfCompany">Company name<span class="req">*</span></label>
+                  <input type="text" id="cpfCompany" name="company_name" autocomplete="organization">
+                  <div class="maf-err">Please enter the company name.</div>
+                </div>
+                <div class="maf-field">
+                  <label class="maf-label" for="cpfWebsite">Company website</label>
+                  <input type="text" id="cpfWebsite" name="company_website" inputmode="url" placeholder="www.example.com">
+                </div>
+                <div class="maf-field full" data-required>
+                  <label class="maf-label" for="cpfCountry">Country / headquarters<span class="req">*</span></label>
+                  <input type="text" id="cpfCountry" name="country_hq" placeholder="e.g. Chengdu, Sichuan, China">
+                  <div class="maf-err">Please enter the country or headquarters location.</div>
+                </div>
+              </div>
+
+              <div class="maf-field" data-required style="margin-top:22px;">
+                <span class="maf-label">Water-sector category<span class="req">*</span></span>
+                <p class="maf-hint">Select all that apply.</p>
+                <div class="maf-options">
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Treatment"><span>Water Treatment</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Wastewater Treatment"><span>Wastewater Treatment</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Industrial Water"><span>Industrial Water</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Supply / Distribution"><span>Water Supply / Distribution</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Desalination"><span>Desalination</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Recycling / Reuse"><span>Water Recycling / Reuse</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Pumps / Valves / Pipes"><span>Pumps / Valves / Pipes</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Membranes / Filtration"><span>Membranes / Filtration</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Water Chemicals"><span>Water Chemicals</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Smart Water / IoT / Monitoring"><span>Smart Water / IoT / Monitoring</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Engineering / EPC"><span>Engineering / EPC</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Testing / Laboratory Services"><span>Testing / Laboratory Services</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Environmental Services"><span>Environmental Services</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="category" value="Other water-related business"><span>Other water-related business</span></label>
+                </div>
+                <div class="maf-err">Please select at least one category.</div>
+              </div>
+
+              <div class="maf-field" data-required>
+                <label class="maf-label" for="cpfSummary">Brief company summary<span class="req">*</span></label>
+                <p class="maf-hint">A short summary of your company, including its main products or services, key markets, areas of expertise, and key strengths or capabilities. This may be used to prepare your company profile for publication on the platform.</p>
+                <textarea id="cpfSummary" name="company_summary" rows="5"></textarea>
+                <div class="maf-err">Please add a short company summary.</div>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="maf-page" data-page="2">
+              <h4 class="maf-page-title">Authorised contact &amp; confidentiality</h4>
+              <p class="maf-page-sub">Provide the details of the authorised company representative.</p>
+              <div class="maf-grid">
+                <div class="maf-field" data-required>
+                  <label class="maf-label" for="cpfName">Full name of authorised representative<span class="req">*</span></label>
+                  <input type="text" id="cpfName" name="rep_name" autocomplete="name">
+                  <div class="maf-err">Please enter the representative's full name.</div>
+                </div>
+                <div class="maf-field" data-required>
+                  <label class="maf-label" for="cpfTitle">Position / job title<span class="req">*</span></label>
+                  <input type="text" id="cpfTitle" name="rep_title" autocomplete="organization-title">
+                  <div class="maf-err">Please enter a position or job title.</div>
+                </div>
+                <div class="maf-field" data-required data-type="email">
+                  <label class="maf-label" for="cpfEmail">Corporate email<span class="req">*</span></label>
+                  <input type="email" id="cpfEmail" name="rep_email" autocomplete="email" placeholder="name@company.com">
+                  <div class="maf-err">Please enter a valid email address.</div>
+                </div>
+                <div class="maf-field">
+                  <label class="maf-label" for="cpfPhone">Contact number</label>
+                  <input type="tel" id="cpfPhone" name="rep_phone" autocomplete="tel" placeholder="+86 28 1234 5678">
+                </div>
+              </div>
+
+              <div class="maf-confid">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div><b>Confidentiality &amp; use of information.</b> Information submitted through this form may be used to prepare and publish your company profile on our platform, including your company overview, products, capabilities and other information provided for promotional purposes. Contact details or other information marked as confidential will not be displayed publicly unless authorised. We may contact you if clarification or additional information is required before publication.</div>
+              </div>
+
+              <div class="maf-field" data-required="all">
+                <span class="maf-label">Confirmation<span class="req">*</span></span>
+                <div class="maf-options stack">
+                  <label class="maf-opt"><input type="checkbox" name="confirm_authorised" value="yes"><span>I confirm that I am authorised to submit this information on behalf of the company.</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="confirm_accurate" value="yes"><span>I confirm that the information provided is accurate to the best of my knowledge and may be used to prepare and publish the company profile on the platform.</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="confirm_editing" value="yes"><span>I understand that the submitted content may be edited for clarity, formatting and presentation without changing its intended meaning.</span></label>
+                  <label class="maf-opt"><input type="checkbox" name="confirm_contact" value="yes"><span>I agree for the company to be contacted regarding business, supplier or partnership enquiries received through the platform.</span></label>
+                </div>
+                <div class="maf-err">Please tick all four confirmations to submit.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="maf-foot">
+            <button type="button" class="btn btn-ghost btn-sm maf-back" id="cpfBack"><i class="fa-solid fa-arrow-left"></i> Back</button>
+            <span class="maf-count" id="cpfCount">Step 1 of 2</span>
+            <button type="button" class="btn btn-primary btn-sm" id="cpfNext">Next <i class="fa-solid fa-arrow-right"></i></button>
+            <button type="submit" class="btn btn-amber btn-sm" id="cpfSubmit"><i class="fa-solid fa-paper-plane"></i> Submit company profile</button>
+          </div>
+        </form>
+
+        <div class="maf-success" id="cpfSuccess">
+          <div class="maf-success-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <h3>Thank you — your company profile has been received</h3>
+          <p>Our team will review the details and may contact you if anything needs clarifying before your profile is published on the platform.</p>
+          <button type="button" class="btn btn-ghost btn-sm" id="cpfAgain"><i class="fa-solid fa-rotate-left"></i> Submit another profile</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<div id="site-footer"></div>
+
+<!-- POP-UP WINDOW -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="modalTitle">Supplier profile</h3>
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <h4>Company overview</h4>
+      <p id="modalDesc"></p>
+      <h4>Product / technology category</h4>
+      <div id="modalProducts" class="modal-cats"></div>
+      <h4>Contact</h4>
+      <div class="modal-contact" id="modalContact"></div>
+      <div class="modal-actions">
+        <a href="#" class="btn btn-primary btn-sm" id="modalEnquire"><i class="fa-solid fa-envelope"></i> Enquire</a>
+        <a href="#" class="btn btn-ghost btn-sm" id="modalWebsite" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Visit website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- M&A DEAL POP-UP -->
+<div class="modal-overlay" id="dealOverlay">
+  <div class="modal deal-modal">
+    <div class="modal-head">
+      <div>
+        <h3 id="dealTitle">M&amp;A listing</h3>
+        <div class="deal-sub" id="dealSub"></div>
+      </div>
+      <button class="modal-close" id="dealClose" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body" id="dealBody"></div>
+  </div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.mini.min.js"></script>
+<script src="js/layout.js?v=20261030u"></script>
+<script src="js/companies.js?v=20261030u"></script>
+<script src="js/research.js?v=20261030u"></script>
+<script>
+
+/* ---- TAB SWITCHING ---- */
+function goTo(group, tab){
+  document.querySelectorAll(`.subtab-btn[data-group="${group}"]`).forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  document.querySelectorAll(`.tab-pane[data-group="${group}"]`).forEach(p => p.classList.toggle('active', p.dataset.tab === tab));
+  document.getElementById(group).scrollIntoView({behavior:'smooth', block:'start'});
+  if(group === 'insights' && tab === 'dashboard') initDashboard();
+}
+
+// Open tab from URL (e.g. #news)
+const hashRoutes = {opportunities:['insights','opportunities'], news:['insights','news'], dashboard:['insights','dashboard'], leadership:['insights','leadership'], profiles:['commercial','profiles'], mna:['commercial','mna'], list:['commercial','list']};
+function routeHash(onLoad){
+  const r = hashRoutes[location.hash.slice(1)];
+  if (!r) return;
+  goTo(r[0], r[1]);
+  // Jump straight there on first load
+  if (onLoad === true) setTimeout(() => document.getElementById(r[0]).scrollIntoView({block:'start'}), 80);
+}
+window.addEventListener('hashchange', () => routeHash());
+window.addEventListener('load', () => routeHash(true));
+
+/* ---- STEP-BY-STEP FORMS ---- */
+function setupWizard(id, label){
+  const $id = s => document.getElementById(id + s);
+  const box = $id('');
+  const form = $id('Form');
+  const pages = form.querySelectorAll('.maf-page');
+  const steps = box.querySelectorAll('.maf-step');
+  const back = $id('Back');
+  const next = $id('Next');
+  const submit = $id('Submit');
+  const total = pages.length;
+  let step = 1;
+
+  function show(n){
+    step = n;
+    pages.forEach(p => p.classList.toggle('active', +p.dataset.page === n));
+    steps.forEach(s => {
+      const k = +s.dataset.step;
+      s.classList.toggle('active', k === n);
+      s.classList.toggle('done', k < n);
+    });
+    $id('Bar').style.width = (n / total * 100) + '%';
+    $id('Count').textContent = `Step ${n} of ${total}`;
+    back.classList.toggle('show', n > 1);
+    next.hidden = n === total;
+    submit.hidden = n !== total;
+  }
+
+  function fieldOk(f){
+    const boxes = f.querySelectorAll('input[type=checkbox], input[type=radio]');
+    if (boxes.length) {
+      const checked = [...boxes].filter(b => b.checked).length;
+      return f.dataset.required === 'all' ? checked === boxes.length : checked > 0;
+    }
+    const v = f.querySelector('input, textarea').value.trim();
+    if (!v) return false;
+    if (f.dataset.type === 'email') return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+    return true;
+  }
+
+  function validate(page){
+    let first = null;
+    page.querySelectorAll('.maf-field[data-required]').forEach(f => {
+      const ok = fieldOk(f);
+      f.classList.toggle('invalid', !ok);
+      if (!ok && !first) first = f;
+    });
+    if (first) {
+      first.scrollIntoView({behavior:'smooth', block:'center'});
+      const el = first.querySelector('input, textarea');
+      if (el) el.focus({preventScroll:true});
+    }
+    return !first;
+  }
+
+  form.addEventListener('input', e => {
+    const f = e.target.closest('.maf-field.invalid');
+    if (f && fieldOk(f)) f.classList.remove('invalid');
+  });
+  form.addEventListener('change', e => {
+    const f = e.target.closest('.maf-field.invalid');
+    if (f && fieldOk(f)) f.classList.remove('invalid');
+  });
+
+  function toTop(){ box.scrollIntoView({behavior:'smooth', block:'start'}); }
+
+  next.addEventListener('click', () => {
+    if (!validate(pages[step - 1])) return;
+    show(step + 1); toTop();
+  });
+  back.addEventListener('click', () => { show(step - 1); toTop(); });
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    if (!validate(pages[step - 1])) return;
+    // Not sent anywhere yet
+    const data = {};
+    new FormData(form).forEach((v, k) => { data[k] = data[k] ? [].concat(data[k], v) : v; });
+    console.log(label + ' submission', data);
+    steps.forEach(s => { s.classList.remove('active'); s.classList.add('done'); });
+    box.classList.add('sent'); toTop();
+  });
+
+  $id('Again').addEventListener('click', () => {
+    form.reset();
+    form.querySelectorAll('.maf-field.invalid').forEach(f => f.classList.remove('invalid'));
+    box.classList.remove('sent');
+    show(1); toTop();
+  });
+
+  show(1);
+}
+setupWizard('maf', 'M&A opportunity');
+setupWizard('cpf', 'Company profile');
+
+/* ---- INSIGHTS > OPPORTUNITIES ---- */
+const oppPhases = {
+  supply: "Water Supply (Upstream–Midstream)",
+  enduse: "Customer / End-Use",
+  wastewater: "Wastewater Management",
+  enablers: "Cross-Cutting Enablers"
+};
+const oppSubsegments = {
+  sourcing:      {label:"Source & Abstraction",                phase:"supply",     icon:"fa-droplet",               color:"icon-teal"},
+  treatment:     {label:"Purification & Treatment",             phase:"supply",     icon:"fa-filter",                color:"icon-navy"},
+  transmission:  {label:"Bulk Transmission & Storage",          phase:"supply",     icon:"fa-warehouse",             color:"icon-amber"},
+  distribution:  {label:"Local Distribution Networks",          phase:"supply",     icon:"fa-network-wired",         color:"icon-coral"},
+  agriculture:   {label:"Agricultural Consumption",             phase:"enduse",     icon:"fa-wheat-awn",             color:"icon-green"},
+  industrial:    {label:"Industrial & Energy Production",       phase:"enduse",     icon:"fa-industry",              color:"icon-navy"},
+  municipal:     {label:"Municipal & Residential Use",          phase:"enduse",     icon:"fa-house-chimney",         color:"icon-teal"},
+  collection:    {label:"Collection & Sewerage Infrastructure", phase:"wastewater", icon:"fa-toilet",                color:"icon-coral"},
+  wwtreatment:   {label:"Wastewater Treatment & Processing",    phase:"wastewater", icon:"fa-flask",                 color:"icon-amber"},
+  reclamation:   {label:"Disposal, Reclamation & Recycling",    phase:"wastewater", icon:"fa-recycle",               color:"icon-green"},
+  equipment:     {label:"Equipment Manufacturing",              phase:"enablers",   icon:"fa-gears",                 color:"icon-navy"},
+  monitoring:    {label:"Testing, Monitoring & Analytics",      phase:"enablers",   icon:"fa-magnifying-glass-chart",color:"icon-teal"},
+  digital:       {label:"Digitalization & Smart Water (IoT)",   phase:"enablers",   icon:"fa-microchip",             color:"icon-amber"},
+  advisory:      {label:"Engineering & Advisory Services",      phase:"enablers",   icon:"fa-user-tie",              color:"icon-coral"}
+};
+const oppCountries = ["Malaysia","Indonesia","Vietnam","Philippines","Thailand","Singapore"];
+const oppStatusClass = {"Tender open":"status-open","PPP screening":"status-ppp","Feasibility":"status-feas","Pre-qualification":"status-prequal","Awarded":"status-awarded"};
+
+const opportunities = [
+  {country:"Malaysia", seg:"sourcing", title:"Pahang river intake capacity expansion study", value:"USD18M", stage:"Feasibility"},
+  {country:"Indonesia", seg:"sourcing", title:"West Java aquifer recharge & groundwater licensing programme", value:"USD22M", stage:"Pre-qualification"},
+  {country:"Thailand", seg:"sourcing", title:"Eastern Seaboard seawater desalination intake works", value:"USD95M", stage:"PPP screening"},
+
+  {country:"Malaysia", seg:"treatment", title:"Selangor 40 MLD membrane upgrade", value:"USD85M", stage:"Tender open"},
+  {country:"Indonesia", seg:"treatment", title:"Jakarta Bay desalination PPP", value:"USD310M", stage:"PPP screening"},
+  {country:"Philippines", seg:"treatment", title:"Metro Manila advanced filtration retrofit", value:"USD40M", stage:"Feasibility"},
+
+  {country:"Vietnam", seg:"transmission", title:"Mekong Delta bulk water transmission main", value:"USD130M", stage:"PPP screening"},
+  {country:"Thailand", seg:"transmission", title:"Bangkok metropolitan reservoir balancing tanks", value:"USD28M", stage:"Tender open"},
+  {country:"Singapore", seg:"transmission", title:"PUB regional transmission redundancy programme", value:"USD45M", stage:"Awarded"},
+
+  {country:"Philippines", seg:"distribution", title:"Metro Cebu bulk water supply", value:"USD150M", stage:"PPP screening"},
+  {country:"Indonesia", seg:"distribution", title:"Surabaya non-revenue water pipe replacement", value:"USD65M", stage:"Tender open"},
+  {country:"Malaysia", seg:"distribution", title:"Johor smart pressure-management rollout", value:"USD12M", stage:"Feasibility"},
+
+  {country:"Vietnam", seg:"agriculture", title:"Mekong Delta irrigation modernisation programme", value:"USD180M", stage:"PPP screening"},
+  {country:"Thailand", seg:"agriculture", title:"Northeastern Thailand farm-level drip irrigation rollout", value:"USD35M", stage:"Pre-qualification"},
+  {country:"Indonesia", seg:"agriculture", title:"Central Java rice-belt water allocation upgrade", value:"USD50M", stage:"Feasibility"},
+
+  {country:"Thailand", seg:"industrial", title:"Eastern Seaboard industrial water reuse", value:"USD60M", stage:"Tender open"},
+  {country:"Singapore", seg:"industrial", title:"Jurong Island industrial cooling water network", value:"USD75M", stage:"Awarded"},
+  {country:"Vietnam", seg:"industrial", title:"Binh Duong industrial park water recycling loop", value:"USD30M", stage:"Feasibility"},
+
+  {country:"Indonesia", seg:"municipal", title:"Jakarta municipal tariff & metering reform", value:"USD20M", stage:"Pre-qualification"},
+  {country:"Philippines", seg:"municipal", title:"Davao City household connection expansion", value:"USD42M", stage:"Tender open"},
+  {country:"Malaysia", seg:"municipal", title:"Kuala Lumpur high-rise water pressure upgrade", value:"USD15M", stage:"Feasibility"},
+
+  {country:"Vietnam", seg:"collection", title:"Mekong Delta wastewater network", value:"USD240M", stage:"Feasibility"},
+  {country:"Thailand", seg:"collection", title:"Chiang Mai sewer network extension", value:"USD38M", stage:"Tender open"},
+  {country:"Indonesia", seg:"collection", title:"Bandung combined sewer separation programme", value:"USD55M", stage:"PPP screening"},
+
+  {country:"Philippines", seg:"wwtreatment", title:"Metro Manila tertiary treatment upgrade", value:"USD90M", stage:"PPP screening"},
+  {country:"Malaysia", seg:"wwtreatment", title:"Penang centralised WWTP expansion", value:"USD70M", stage:"Tender open"},
+  {country:"Singapore", seg:"wwtreatment", title:"NEWater tertiary membrane bioreactor upgrade", value:"USD48M", stage:"Awarded"},
+
+  {country:"Singapore", seg:"reclamation", title:"NEWater smart monitoring upgrade", value:"USD25M", stage:"Feasibility"},
+  {country:"Thailand", seg:"reclamation", title:"Eastern Seaboard reclaimed water for industrial reuse", value:"USD32M", stage:"Pre-qualification"},
+  {country:"Indonesia", seg:"reclamation", title:"Bali reclaimed water for hospitality irrigation", value:"USD14M", stage:"Feasibility"},
+
+  {country:"Vietnam", seg:"equipment", title:"National pump & valve localisation incentive programme", value:"USD8M", stage:"Pre-qualification"},
+  {country:"Malaysia", seg:"equipment", title:"Membrane component local assembly facility", value:"USD16M", stage:"Feasibility"},
+  {country:"Philippines", seg:"equipment", title:"National pipe & fittings supply framework", value:"USD26M", stage:"Tender open"},
+
+  {country:"Thailand", seg:"monitoring", title:"National water-quality laboratory network upgrade", value:"USD10M", stage:"Feasibility"},
+  {country:"Indonesia", seg:"monitoring", title:"River basin real-time monitoring sensor rollout", value:"USD18M", stage:"PPP screening"},
+  {country:"Singapore", seg:"monitoring", title:"PUB advanced analytics & digital twin programme", value:"USD22M", stage:"Awarded"},
+
+  {country:"Singapore", seg:"digital", title:"PUB citywide smart meter rollout", value:"USD35M", stage:"Tender open"},
+  {country:"Malaysia", seg:"digital", title:"Selangor SCADA modernisation programme", value:"USD20M", stage:"Feasibility"},
+  {country:"Vietnam", seg:"digital", title:"Ho Chi Minh City leak-detection IoT pilot", value:"USD9M", stage:"Pre-qualification"},
+
+  {country:"Philippines", seg:"advisory", title:"National water-sector PPP structuring advisory", value:"USD5M", stage:"Feasibility"},
+  {country:"Indonesia", seg:"advisory", title:"Jakarta capital-project delivery advisory mandate", value:"USD7M", stage:"Tender open"},
+  {country:"Thailand", seg:"advisory", title:"Regional utility environmental compliance audit programme", value:"USD4M", stage:"Awarded"}
+];
+
+function renderOppPhaseStrip(){
+  const counts = {}; Object.keys(oppPhases).forEach(p => counts[p] = 0);
+  opportunities.forEach(o => counts[oppSubsegments[o.seg].phase]++);
+  const icons = {supply:"fa-droplet", enduse:"fa-city", wastewater:"fa-recycle", enablers:"fa-toolbox"};
+  const colors = {supply:"icon-teal", enduse:"icon-amber", wastewater:"icon-coral", enablers:"icon-navy"};
+  document.getElementById('oppPhaseStrip').innerHTML = Object.keys(oppPhases).map(p => `
+    <div class="opp-phase-card">
+      <span class="icon-circle icon-sm ${colors[p]}"><i class="fa-solid ${icons[p]}"></i></span>
+      <div><div class="opp-phase-count">${counts[p]}</div><div class="opp-phase-label">${oppPhases[p]}</div></div>
+    </div>`).join('');
+}
+
+function initOppFilters(){
+  const countrySel = document.getElementById('oppCountryFilter');
+  oppCountries.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; countrySel.appendChild(o); });
+  const segSel = document.getElementById('oppSegFilter');
+  Object.keys(oppPhases).forEach(phase => {
+    const og = document.createElement('optgroup'); og.label = oppPhases[phase];
+    Object.entries(oppSubsegments).filter(([k,v]) => v.phase === phase).forEach(([k,v]) => {
+      const o = document.createElement('option'); o.value = k; o.textContent = v.label; og.appendChild(o);
+    });
+    segSel.appendChild(og);
+  });
+}
+
+let oppPage = 1;
+const OPP_PER_PAGE = 8;
+function renderOpportunities(){
+  const country = document.getElementById('oppCountryFilter').value;
+  const seg = document.getElementById('oppSegFilter').value;
+  const q = document.getElementById('oppSearch').value.trim().toLowerCase();
+  const filtered = opportunities.filter(o =>
+    (country === 'all' || o.country === country) &&
+    (seg === 'all' || o.seg === seg) &&
+    (!q || o.title.toLowerCase().includes(q) || o.country.toLowerCase().includes(q) || oppSubsegments[o.seg].label.toLowerCase().includes(q))
+  );
+  const totalPages = Math.max(1, Math.ceil(filtered.length / OPP_PER_PAGE));
+  if(oppPage > totalPages) oppPage = totalPages;
+  const start = (oppPage - 1) * OPP_PER_PAGE;
+  const pageItems = filtered.slice(start, start + OPP_PER_PAGE);
+  document.getElementById('oppList').innerHTML = pageItems.map(o => {
+    const sub = oppSubsegments[o.seg];
+    return `<div class="opp-row"><span class="opp-icon ${sub.color}"><i class="fa-solid ${sub.icon}"></i></span><span class="opp-country">${o.country}</span><span>${o.title}</span><span>${sub.label}</span><span class="opp-value">${o.value}</span><span class="opp-status ${oppStatusClass[o.stage]}">${o.stage}</span></div>`;
+  }).join('') || '<p style="font-size:13px;color:var(--muted);padding:14px 4px;">No opportunities match these filters.</p>';
+  document.getElementById('oppCount').textContent = `${filtered.length} opportunities found across ${new Set(filtered.map(o => o.country)).size} market${new Set(filtered.map(o => o.country)).size === 1 ? '' : 's'}`;
+  document.getElementById('oppPageInfo').textContent = `Page ${oppPage} of ${totalPages}`;
+  document.getElementById('oppPrev').disabled = oppPage <= 1;
+  document.getElementById('oppNext').disabled = oppPage >= totalPages;
+}
+renderOppPhaseStrip();
+initOppFilters();
+renderOpportunities();
+document.getElementById('oppCountryFilter').addEventListener('change', () => { oppPage = 1; renderOpportunities(); });
+document.getElementById('oppSegFilter').addEventListener('change', () => { oppPage = 1; renderOpportunities(); });
+document.getElementById('oppSearch').addEventListener('input', () => { oppPage = 1; renderOpportunities(); });
+document.getElementById('oppPrev').addEventListener('click', () => { if(oppPage > 1){ oppPage--; renderOpportunities(); } });
+document.getElementById('oppNext').addEventListener('click', () => { oppPage++; renderOpportunities(); });
+
+/* ---- COMMERCIAL > M&A LISTINGS ---- */
+// Copy a { ... } block to add a listing. Empty "" or [] fields are hidden.
+// posted: date the listing went live (YYYY-MM-DD). status: new | active | completed | expired
+const mnaListings = [
+  {name:"Salcon Engineering Berhad", country:"Malaysia", website:"https://www.salcon.com.my",
+   posted:"2026-08-14", status:"active",
+   contact:{name:"Ahmad Razali", title:"Director of Business Development", email:"ahmad.razali@salcon.com.my", phone:"+60 3-8024 8822"},
+   sectors:["Water Treatment","Wastewater Treatment","Engineering / EPC"],
+   deal:["Strategic partnership","Joint venture"],
+   summary:"Salcon Engineering Berhad is a leading water and wastewater engineering firm in Asia, providing end-to-end services (design, construction, commissioning, operation and maintenance) for water and wastewater treatment plants. Key markets include Malaysia and the ASEAN region. Core expertise covers municipal water supply, industrial effluent treatment and non-revenue water (NRW) management. The primary strength is comprehensive EPC capability to deliver large-scale infrastructure meeting strict regulatory standards.",
+   revenue:"USD 50–100M", growth:"Flat / stable (0–5%)", ebitda:"11–20%", timeline:"Exploring options",
+   highlights:[
+     ["Strategic capital injection","Seeking a partner to inject working capital, strengthening the balance sheet to aggressively bid for upcoming mega-projects under Malaysia's renewed water CAPEX cycle."],
+     ["Massive tender pipeline","Active tender pipeline valued at over RM 4.3 billion across local and international markets."],
+     ["Immediate market access","Provides international funds or EPCs immediate access to Malaysia's highest-tier infrastructure licences (CIDB G7) without needing to build local track records."],
+     ["Turnaround potential","Core operational capabilities and legacy government relationships offer a lucrative turnaround acquisition despite recent temporary profitability impacts."]],
+   partners:["Strategic water-sector company","Regional industry player","PE / investment fund","International investor"],
+   licences:["CIDB Malaysia Grade 7 (unlimited tender capacity for engineering and construction)","SPAN permits for water and sewerage works","ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018"]},
+
+  {name:"AquaFlow Smart Networks Sdn Bhd", country:"Malaysia", website:"https://www.aquaflow-smart.com.my",
+   posted:"2026-10-24", status:"new",
+   contact:{name:"Tariq bin Mahmud", title:"Founder & Managing Director", email:"tariq.mahmud@aquaflow-smart.com.my", phone:"+60 3-7622 9011"},
+   sectors:["Water Supply / Distribution","Smart Water / IoT / Monitoring"],
+   deal:["Minority stake sale","Strategic partnership"],
+   summary:"AquaFlow Smart Networks Sdn Bhd is a homegrown Malaysian technology provider specialising in smart water metering, acoustic leak detection and IoT-based pressure management systems. Hardware and software solutions are specifically engineered for tropical climates and ageing pipe infrastructure. The core strength is a proprietary data analytics platform currently used in localised pilot zones by two major state water operators to drastically reduce Non-Revenue Water (NRW). Offers a highly scalable, asset-light technology model with strong recurring software revenue.",
+   revenue:"USD 5–10M", growth:"High growth (above 15%)", ebitda:"11–20%", timeline:"Within 3 months",
+   highlights:[
+     ["Growth capital requirement","Seeking Series A/B funding and a strategic technology partner to scale up local manufacturing of proprietary IoT acoustic sensors and expand the software engineering team."],
+     ["High-margin recurring revenue","Business model transitions utility clients from one-off hardware purchases to long-term SaaS subscriptions for data analytics, providing excellent revenue visibility."],
+     ["Direct alignment with national agenda","Well positioned to capitalise on the Malaysian government's mandate and funding allocations for state-level NRW reduction programmes."],
+     ["Strategic acquisition target","Prime bolt-on acquisition for larger traditional EPCs or pipe manufacturers looking to modernise their portfolio with digital water capabilities."]],
+   partners:["Strategic water-sector company","PE / investment fund","Technology partner"],
+   licences:["Registered supplier with the Ministry of Finance (MOF)","Product certification from the National Water Services Commission (SPAN)","SIRIM certification for IoT communications hardware"]},
+
+  {name:"NexStream Water Technologies Pte Ltd", country:"Singapore", website:"https://www.nexstream-water.com.sg",
+   posted:"2026-09-22", status:"active",
+   contact:{name:"Jason Lee", title:"Chief Technology Officer", email:"jason.lee@nexstream-water.com.sg", phone:"+65 6777 8291"},
+   sectors:["Desalination","Water Recycling / Reuse","Membranes / Filtration","Smart Water / IoT / Monitoring"],
+   deal:["Minority stake sale","Strategic partnership","Joint venture"],
+   summary:"NexStream Water Technologies Pte Ltd is a Singapore-based technology firm specialising in AI-driven water grid management, IoT leak detection and advanced membrane desalination efficiency. The company provides highly scalable SaaS platforms and proprietary acoustic sensors designed to drastically reduce Non-Revenue Water (NRW) in urban networks. Having deployed pilot projects alongside Singapore's national water agency, its core strength lies in digitising legacy water infrastructure, offering regional utilities proven, tech-forward solutions to optimise operations without massive capital expenditure.",
+   revenue:"USD 10–25M", growth:"High growth (above 15%)", ebitda:"21–30%", timeline:"3–6 months",
+   highlights:[
+     ["Strategic market expansion","Seeking Series B funding and strategic JV partners (local Malaysian EPCs or utilities) to deploy IoT smart water monitoring systems across Malaysia's ageing pipe networks."],
+     ["Proven technology","Hardware and software already tested and validated in Singapore's highly rigorous water management ecosystem."],
+     ["High-margin SaaS revenue","Business model is anchored by recurring software subscriptions and long-term maintenance contracts, yielding strong EBITDA margins."],
+     ["Targeting the NRW crisis","Direct alignment with Malaysia's national targets to reduce NRW, presenting a large, immediate addressable market for the leak detection technology."]],
+   partners:["Strategic water-sector company","Regional industry player","PE / investment fund"],
+   licences:["Registered contractor with the Building and Construction Authority (BCA) of Singapore","ISO 27001 (information security management) for the SaaS platform","Approved vendor for public utility smart grid pilot programmes in Singapore"]},
+
+  {name:"PT Tirta Lestari Industri", country:"Indonesia", website:"https://www.tirtalestari-industri.co.id",
+   posted:"2026-10-27", status:"new",
+   contact:{name:"Dewi Susanti", title:"Head of Corporate Development", email:"dewi.susanti@tirtalestari-industri.co.id", phone:"+62 21 888 4321"},
+   sectors:["Wastewater Treatment","Industrial Water","Water Recycling / Reuse","Environmental Services"],
+   deal:["Minority stake sale","Strategic partnership","Joint venture"],
+   summary:"PT Tirta Lestari Industri is a specialised industrial wastewater management firm operating primarily in Sumatra and Kalimantan. The company designs, builds and operates effluent treatment plants for high-polluting industries, specifically palm oil mills and mining operations. Its core capability is treating severe industrial discharge to meet stringent environmental compliance standards. A key strength is its established client base of top-tier Indonesian resource conglomerates and a growing portfolio of long-term Build-Operate-Transfer (BOT) contracts.",
+   revenue:"USD 5–10M", growth:"Moderate growth (6–15%)", ebitda:"21–30%", timeline:"3–6 months",
+   highlights:[
+     ["Strategic technology partnership","Seeking an international partner with advanced Zero Liquid Discharge (ZLD) or specialised membrane technology to upgrade existing treatment plants and capture a higher margin on water reuse."],
+     ["Captive industrial market","The Indonesian government is strictly enforcing environmental discharge limits on the palm oil and mining sectors, creating large immediate demand for compliance upgrades."],
+     ["High-yield contracts","The BOT business model secures long-term recurring revenue with excellent EBITDA margins tied directly to the production output of major resource companies."],
+     ["Scalability","Proven track record with 12 active treatment facilities, providing a plug-and-play platform for a foreign technology provider to scale across Indonesia's resource sectors."]],
+   partners:["Strategic water-sector company","PE / investment fund","Technology partner","International investor"],
+   licences:["Ministry of Environment and Forestry (KLHK) certifications for hazardous waste and effluent management","ISO 14001:2015 (environmental management)","AMDAL (environmental impact assessment) consulting and execution licences"]},
+
+  {name:"Baobao Water Meter (Group) Co., Ltd.", country:"China", location:"Ningbo, China", website:"https://www.baobaowatermeter.com",
+   posted:"2026-05-06", status:"completed",
+   contact:{name:"Chan Lin Feng", title:"Chairman", email:"sales@baobaowatermeters.com", phone:"+86 574 88192085"},
+   sectors:["Water Supply / Distribution","Smart Water / IoT / Monitoring"],
+   deal:["Strategic partnership","Joint venture","Open to discussion"],
+   summary:"BaoBao Water Meter (Group) Co., Ltd. is a water metering company based in Ningbo, Zhejiang, with a history dating back to 1978. It researches, manufactures and sells mechanical, smart and ultrasonic water meters, heat meters and remote-reading terminals, alongside sensors for flow, pressure and water quality. It also offers a smart water platform and pipe network operation and maintenance services. Listed on the Shanghai Stock Exchange since January 2018 (607300), it serves more than 2,300 water utilities in China and over 400 international customers, exporting to more than 80 countries and regions.",
+   revenue:"Above USD 100M", growth:"Moderate growth (6–15%)", ebitda:"11–20%", timeline:"Exploring options",
+   highlights:[
+     ["Global leader in NB-IoT metering","Leading smart water meter manufacturer in China with over 10 million NB-IoT meters deployed across 100+ cities."],
+     ["Strong IP and standards","Holds 340+ patents and has participated in drafting 42 national and industry water meter standards."],
+     ["Established listed entity","Solid financial backing as a listed company with a proven track record since 2010."],
+     ["Seeking strategic expansion","Actively looking for international JV or distribution partners to localise smart water solutions in Southeast Asia, the Middle East and Africa."]],
+   partners:["Strategic water-sector company","Regional industry player","Technology partner","International investor"],
+   licences:["National High-Tech Enterprise","National Technological Innovation Demonstration Enterprise","MID, OIML and NMI international certifications"]},
+
+  {name:"Tuziyu Technology Co., Ltd.", country:"China", location:"Chengdu, Sichuan, China", website:"https://www.tuziyu.com",
+   posted:"2026-03-18", status:"expired",
+   contact:{name:"Wu Qing Mei", title:"Chairman", email:"service@tuziyu.com", phone:"+86 400 488 8620"},
+   sectors:["Water Treatment","Smart Water / IoT / Monitoring"],
+   deal:["Minority stake sale","Strategic partnership","Joint venture","Open to discussion"],
+   summary:"Tuziyu Technology Co., Ltd. provides integrated hardware and software solutions that apply artificial intelligence to water supply, drainage and water treatment facilities. Founded in 2002, the company specialises in complete smart water plant solutions, offering an AI water platform, digital twin water plant systems, AI edge stations and smart water management systems. It also develops specialised instruments such as smart pressure-regulating valves and floc analysers to optimise chemical dosing. The company has delivered more than 1,200 projects for over 400 customers, including a digital twin system for a 180,000 m³/day underground wastewater plant in Chengdu.",
+   revenue:"USD 10–25M", growth:"High growth (above 15%)", ebitda:"11–20%", timeline:"Exploring options",
+   highlights:[
+     ["Proprietary AI and digital twin technology","Specialises in AI-driven water plant optimisation, providing digital twin systems and AI edge stations for water treatment facilities."],
+     ["Proven track record","Delivered 1,200+ projects for over 400 clients, including a benchmark digital twin system for a large-scale underground wastewater plant."],
+     ["Strong academic alliances","Cooperates with Shanghai Jiao Tong University, holding over 300 IP items (including 31 invention patents) in water technology."],
+     ["Asset-light software growth","Seeking strategic investors to scale its proprietary \"AI + Water\" SaaS platforms and expand into smart city infrastructure across China and overseas."]],
+   partners:["Strategic water-sector company","Regional industry player","PE / investment fund","Technology partner","International investor"],
+   licences:["National High-Tech Enterprise","Technology-based SME","Member of the China Urban Water Association","Multiple ISO certifications"]}
+];
+
+// Deal type badge colour and card icon
+const mnaDealStyle = d => /open/i.test(d) ? 'open' : /stake|acquisition|sale/i.test(d) ? 'stake' : /joint/i.test(d) ? 'jv' : 'partner';
+// Listing status: label and icon
+const MNA_STATUS = {
+  new:       ['Newly listed', 'fa-star'],
+  active:    ['In progress', 'fa-arrows-rotate'],
+  completed: ['Successfully closed', 'fa-handshake'],
+  expired:   ['No longer available', 'fa-clock']
+};
+const mnaStatus = l => { const [label, icon] = MNA_STATUS[l.status] || MNA_STATUS.active;
+  return `<span class="mna-status mna-status-${l.status || 'active'}"><i class="fa-solid ${icon}"></i> ${label}</span>`; };
+const MNA_MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const mnaDate = d => { const [y, m, day] = d.split('-').map(Number); return `${day} ${MNA_MONTHS[m - 1]} ${y}`; };
+// "Today", "3 days ago", "2 weeks ago", "5 months ago"
+const mnaAgo = d => {
+  const days = Math.max(0, Math.floor((Date.now() - new Date(d + 'T00:00:00')) / 864e5));
+  const unit = (n, w) => `${n} ${w}${n === 1 ? '' : 's'} ago`;
+  return days === 0 ? 'Today' : days < 7 ? unit(days, 'day') : days < 30 ? unit(Math.floor(days / 7), 'week')
+    : days < 365 ? unit(Math.floor(days / 30), 'month') : unit(Math.floor(days / 365), 'year');
+};
+// Listing date line, e.g. "27 Oct 2026 · 3 days ago"
+const mnaPosted = l => { const [y, m, day] = l.posted.split('-').map(Number);
+  return `<div class="mna-posted" title="Listed on ${mnaDate(l.posted)}"><i class="fa-regular fa-calendar"></i> ${day} ${MNA_MONTHS[m - 1].slice(0, 3)} ${y} <span>· ${mnaAgo(l.posted)}</span></div>`; };
+let mnaSort = 'desc';
+const mnaIcon = l => !l.deal.length ? ['fa-handshake', 'icon-teal']
+  : mnaDealStyle(l.deal[0]) === 'stake' ? ['fa-chart-pie', 'icon-navy'] : ['fa-people-arrows', 'icon-green'];
+const mnaEsc = t => String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const mnaBadges = l => l.deal.length
+  ? l.deal.map(d => `<span class="deal-badge deal-${mnaDealStyle(d)}">${mnaEsc(d)}</span>`).join('')
+  : `<span class="deal-badge deal-open">Details on request</span>`;
+const mnaFigures = l => [['Revenue', l.revenue], ['3-yr growth', l.growth], ['EBITDA', l.ebitda], ['Timeline', l.timeline]].filter(f => f[1]);
+let mnaCountry = '';
+
+function renderMnaFilter(){
+  const list = [...new Set(mnaListings.map(l => l.country))];
+  document.getElementById('mnaFilter').innerHTML = [['', 'All countries'], ...list.map(c => [c, c])]
+    .map(([v, label]) => `<button type="button" class="chip${v === mnaCountry ? ' active' : ''}" data-country="${mnaEsc(v)}" aria-pressed="${v === mnaCountry}">${mnaEsc(label)}</button>`).join('');
+}
+
+function renderMnaListings(){
+  const grid = document.getElementById('mnaGrid');
+  const shown = mnaListings.filter(l => !mnaCountry || l.country === mnaCountry)
+    .sort((a, b) => (mnaSort === 'desc' ? -1 : 1) * a.posted.localeCompare(b.posted));
+  grid.innerHTML = shown.map(l => {
+    const [icon, color] = mnaIcon(l);
+    const i = mnaListings.indexOf(l);
+    const closed = l.status === 'completed' || l.status === 'expired';
+    return `<article class="mna-card${closed ? ' is-closed' : ''}">
+      ${mnaStatus(l)}
+      <span class="icon-circle ${color} mna-card-icon"><i class="fa-solid ${icon}"></i></span>
+      <span class="mna-country"><i class="fa-solid fa-location-dot"></i> ${mnaEsc(l.location || l.country)}</span>
+      <h3>${mnaEsc(l.name)}</h3>
+      <div class="mna-badges">${mnaBadges(l)}</div>
+      <p class="mna-teaser">${mnaEsc(l.summary)}</p>
+      <div class="mna-meta">
+        ${mnaFigures(l).length
+          ? mnaFigures(l).map(([k, v]) => `<span><b>${k}</b> ${mnaEsc(v)}</span>`).join('')
+          : l.sectors.map(s => `<span class="mna-sector">${mnaEsc(s)}</span>`).join('')}
+      </div>
+      ${mnaPosted(l)}
+      <button type="button" class="btn btn-ghost btn-sm mna-btn" data-i="${i}"><i class="fa-solid fa-lock"></i> View deal details</button>
+    </article>`;
+  }).join('');
+}
+
+// Contact details: masked until the viewer agrees to keep them confidential
+const mnaMask = {
+  name: n => n.split(' ').map((w, i) => i ? w[0] + '•'.repeat(Math.max(3, w.length - 1)) : w).join(' '),
+  email: e => { const [u, d] = e.split('@'); return u[0] + '•••••@' + d; },
+  phone: p => p.replace(/\d(?=(?:\D*\d){2})/g, (m, i) => i < 4 ? m : '•')
+};
+function mnaContact(c){
+  const row = (icon, label, masked, full) => `<div class="deal-contact-row"><i class="fa-solid ${icon}"></i><span class="lbl">${label}</span><span class="val" data-full="${mnaEsc(full)}">${mnaEsc(masked)}</span></div>`;
+  return `<div class="deal-contact" id="dealContact">
+    <div class="deal-contact-head"><h4><i class="fa-solid fa-user-lock"></i> Authorised contact</h4><span class="deal-contact-tag">Confidential</span></div>
+    ${row('fa-user', 'Name', mnaMask.name(c.name), c.name)}
+    ${row('fa-briefcase', 'Position', c.title, c.title)}
+    ${row('fa-envelope', 'Email', mnaMask.email(c.email), c.email)}
+    ${row('fa-phone', 'Phone', mnaMask.phone(c.phone), c.phone)}
+    <div class="deal-reveal" id="dealReveal">
+      <label class="deal-agree"><input type="checkbox" id="dealAgree"> I agree to keep these contact details confidential and use them only to discuss this opportunity.</label>
+      <button type="button" class="btn btn-primary btn-sm" id="dealShow" disabled><i class="fa-solid fa-eye"></i> View contact details</button>
+    </div>
+  </div>`;
+}
+function revealContact(){
+  const box = document.getElementById('dealContact');
+  box.querySelectorAll('.val').forEach(v => {
+    const full = v.dataset.full;
+    const lbl = v.previousElementSibling.textContent;
+    v.innerHTML = lbl === 'Email' ? `<a href="mailto:${mnaEsc(full)}">${mnaEsc(full)}</a>`
+      : lbl === 'Phone' ? `<a href="tel:${full.replace(/[^\d+]/g, '')}">${mnaEsc(full)}</a>` : mnaEsc(full);
+  });
+  box.classList.add('shown');
+  document.getElementById('dealReveal').innerHTML = '<p class="deal-shown-note"><i class="fa-solid fa-shield-halved"></i> Please keep these details confidential.</p>';
+}
+
+function openDeal(l){
+  document.getElementById('dealTitle').textContent = l.name;
+  document.getElementById('dealSub').innerHTML = `<i class="fa-solid fa-location-dot"></i> ${mnaEsc(l.location || l.country)} <span class="deal-sub-sep">·</span> Listed ${mnaDate(l.posted)} ${mnaStatus(l)}`;
+  const figs = mnaFigures(l);
+  document.getElementById('dealBody').innerHTML = `
+    <div class="mna-badges deal-badges-lg">${mnaBadges(l)}</div>
+    <h4>Company overview</h4>
+    <p>${mnaEsc(l.summary)}</p>
+    ${figs.length ? `<div class="deal-figs">${figs.map(([k, v]) => `<div><span>${k}</span><b>${mnaEsc(v)}</b></div>`).join('')}</div>` : ''}
+    ${l.highlights ? `<h4>Deal overview &amp; key highlights</h4><ul class="deal-list">${l.highlights.map(([h, t]) => `<li><b>${mnaEsc(h)}:</b> ${mnaEsc(t)}</li>`).join('')}</ul>` : ''}
+    ${l.partners ? `<h4>Preferred buyer / investor / partner</h4><div class="deal-pills">${l.partners.map(p => `<span>${mnaEsc(p)}</span>`).join('')}</div>` : ''}
+    ${l.licences ? `<h4>Licences, certifications &amp; approvals</h4><ul class="deal-list">${l.licences.map(t => `<li>${mnaEsc(t)}</li>`).join('')}</ul>` : ''}
+    <h4>Water-sector category</h4>
+    <div class="deal-pills">${l.sectors.map(s => `<span>${mnaEsc(s)}</span>`).join('')}</div>
+    ${l.contact ? mnaContact(l.contact) : ''}
+    <div class="modal-actions"><a class="btn btn-ghost btn-sm" href="${mnaEsc(l.website)}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Visit website</a></div>`;
+  document.getElementById('dealOverlay').classList.add('open');
+}
+
+// Switch between listings and the submission form
+function mnaShow(view){
+  document.querySelectorAll('#mnaViewSwitch button').forEach(b => {
+    const on = b.dataset.view === view;
+    b.classList.toggle('active', on); b.setAttribute('aria-selected', on);
+  });
+  document.getElementById('mnaListings').hidden = view !== 'listings';
+  document.getElementById('maf').hidden = view !== 'submit';
+}
+
+renderMnaFilter();
+renderMnaListings();
+document.getElementById('mnaViewSwitch').addEventListener('click', e => { const b = e.target.closest('button'); if (b) mnaShow(b.dataset.view); });
+document.getElementById('mnaSort').addEventListener('change', e => { mnaSort = e.target.value; renderMnaListings(); });
+document.getElementById('mnaFilter').addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  mnaCountry = b.dataset.country; renderMnaFilter(); renderMnaListings();
+});
+document.getElementById('mnaGrid').addEventListener('click', e => { const b = e.target.closest('.mna-btn'); if (b) openDeal(mnaListings[+b.dataset.i]); });
+const dealOverlay = document.getElementById('dealOverlay');
+document.getElementById('dealBody').addEventListener('change', e => { if (e.target.id === 'dealAgree') document.getElementById('dealShow').disabled = !e.target.checked; });
+document.getElementById('dealBody').addEventListener('click', e => { if (e.target.closest('#dealShow')) revealContact(); });
+document.getElementById('dealClose').addEventListener('click', () => dealOverlay.classList.remove('open'));
+dealOverlay.addEventListener('click', e => { if (e.target === dealOverlay) dealOverlay.classList.remove('open'); });
+
+</script>
+
+</body>
+</html>
